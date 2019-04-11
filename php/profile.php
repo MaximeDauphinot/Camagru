@@ -138,6 +138,11 @@ while ($data = $reponse->fetch())
 						<p>Change mail adress</p>
 					</div>
 				</a>
+				<a href="mailnotif.php" style="text-decoration: none; color: black;">
+					<div class="settings_choice">
+						<p>Mail notification</p>
+					</div>
+				</a>
 				<button class="up_button_cancel">Cancel</button>
 			</div>
 
@@ -262,7 +267,7 @@ while ($data = $reponse->fetch())
 </div>
 <div id="footer">
 	<div id="footer_bar">
-		<strong> © Mdauphin Lhermann </strong>
+		<strong> © Mdauphin </strong>
 	</div>
 </div>
 </body>
